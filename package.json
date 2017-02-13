@@ -1,0 +1,26 @@
+{
+  "name": "my-todo-app",
+  "version": "0.1.0",
+  "dependencies": {
+    "body-parser": "~1.10.1",
+    "cookie-session": "~1.1.0",
+    "ejs": "^2.1.4",
+    "express": "~4.11.0"
+  },
+  "author": "Amit MB <amitmbhavikatti@gmail.com>",
+  "description": "A basic todo app in NodeJS to get things started",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/amit-mb/node-todo-app.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amit-mb/node-todo-app/issues"
+  },
+  "homepage": "https://github.com/amit-mb/node-todo-app#readme"
+}

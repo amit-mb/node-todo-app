@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Todo app</title>
+  </head>
+  <body>
+    <h1>My Todo App</h1>
+
+    <ul>
+      <% todolist.forEach(function(todo, index){ %>
+        <li><a href="/todo/delete/<% index %>"></a><% todo %></li>
+      <% }) %>
+    </ul>
+
+    <form class="todoadd" action="/todo/post" method="post">
+      <p>
+        <label for="newtodo">What's next? </label>
+        <input type="text" name="newtodo" autofocus />
+        <input type="submit"  />
+      </p>
+    </form>
+
+  </body>
+</html>
